@@ -367,9 +367,26 @@ a:hover {
 .presentation__title {
   width: 66%;
   margin: auto;
-  line-height: 2.3rem;
   font-weight: 600;
+  line-height: 2.3rem;
   padding-bottom: 30px;
+  text-align: center;
+}
+.testimony {
+  width: 58%;
+  margin: auto;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.testimony__txt {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2.3rem;
+}
+.testimony__sign {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2.3rem;
 }
 
 /**MEDIA QUERIES*/
