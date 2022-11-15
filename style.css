@@ -316,6 +316,8 @@ a:hover {
 }
 
 .navbar .nav {
+  display: flex;
+  align-items: center;
   padding-top: 2px;
   margin-right: -16px;
   float: right;
@@ -382,11 +384,16 @@ a:hover {
   font-size: 20px;
   font-weight: 600;
   line-height: 2.3rem;
+  margin: 0;
 }
 .testimony__sign {
   font-size: 20px;
   font-weight: 400;
   line-height: 2.3rem;
+}
+.creations {
+  width: 56%;
+  margin: auto;
 }
 
 /**MEDIA QUERIES*/
@@ -678,6 +685,7 @@ h6,
 p,
 label,
 .btn,
+li,
 a {
   font-family: "helvetica";
   font-weight: 400;
@@ -767,6 +775,7 @@ h4 {
 
 .white {
   color: #ffffff !important;
+  padding-top: 20px;
 }
 
 .portfolio-thumb {
