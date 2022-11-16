@@ -365,6 +365,39 @@ a:hover {
 }
 
 /**! MES MODIFS */
+/** NavBar */
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+.section li:hover > a {
+  font-weight: bold;
+}
+nav > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.submenu {
+  display: none;
+}
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: -2px;
+  padding: 0px;
+  z-index: 1;
+  list-style: none;
+}
+.submenu li a {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 140px;
+}
+.submenu li:hover a {
+  font-weight: bold;
+}
 
 .presentation__title {
   width: 66%;
@@ -374,6 +407,12 @@ a:hover {
   padding-bottom: 30px;
   text-align: center;
 }
+.menu > .submenu {
+  border-top: 5px solid #f3976d;
+  background-color: rgba(253, 253, 253, 0.7);
+}
+/** NavBar - FIN */
+
 .testimony {
   width: 58%;
   margin: auto;
@@ -395,7 +434,10 @@ a:hover {
   width: 56%;
   margin: auto;
 }
-
+.img-responsive {
+  object-fit: contain;
+}
+/**! MES MODIFS - FIN */
 /**MEDIA QUERIES*/
 @media (min-width: 768px) {
   .site-navigation {
@@ -405,6 +447,7 @@ a:hover {
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
+
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
     color: #484848;
@@ -437,16 +480,27 @@ a:hover {
     margin: 10px auto 0;
   }
 }
-
 .nav > li > .dropdown a {
   background: none !important;
   display: block;
   padding: 14px 15px;
 }
-
 nav .caret {
   margin: 0 5px;
 }
+
+/**!MES MODIFS NavBar - Mes réglages MQ */
+nav a {
+  display: inline-block;
+  text-decoration: none;
+}
+.section li:hover > a {
+  list-style: none;
+}
+.submenu li a {
+  width: 100%;
+}
+/**!MES MODIFS NavBar - Mes réglages MQ _FIN*/
 
 .dropdown-menu .dropdown-menu {
   top: -8px;
@@ -966,7 +1020,7 @@ h4 {
     margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: rgba(0, 0, 0, 0.05);
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
     width: 100%;
   }
