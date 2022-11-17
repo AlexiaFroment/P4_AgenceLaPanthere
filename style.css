@@ -435,7 +435,9 @@ nav li:hover .submenu {
   margin: auto;
 }
 .img-responsive {
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 /**! MES MODIFS - FIN */
 /**MEDIA QUERIES*/
