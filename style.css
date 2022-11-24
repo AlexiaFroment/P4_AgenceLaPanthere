@@ -360,8 +360,7 @@ nav .menu:hover {
   justify-content: center;
 }
 /** Formulaire - FIN */
-.grey__title{
-  
+.grey__title {
 }
 .presentation__title {
   width: 66%;
@@ -401,6 +400,10 @@ nav .menu:hover {
 /**! MES MODIFS - FIN */
 /**MEDIA QUERIES*/
 @media (min-width: 768px) {
+  .portfolio-row {
+    margin-bottom: 44px;
+    margin-top: 50px;
+  }
   .site-navigation {
     position: absolute;
     top: 50%;
@@ -746,11 +749,6 @@ footer .adress {
 }
 .portfolio-thumb {
   margin-bottom: 24px;
-}
-
-.portfolio-row {
-  margin-bottom: 44px;
-  margin-top: 50px;
 }
 
 .avatar {
