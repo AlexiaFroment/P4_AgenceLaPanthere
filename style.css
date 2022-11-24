@@ -326,6 +326,7 @@ h2 {
   padding-bottom: 30px;
   text-align: center;
 }
+
 .subtitle {
   font-size: clamp(15px, 3vw, 18px);
   font-family: "helvetica";
@@ -734,7 +735,7 @@ h4 {
   padding-top: 20px;
 }
 footer .adress {
-  font-size: 1rem;
+  font-size: 1.4rem;
 }
 .adress a {
   text-decoration: none;
@@ -768,6 +769,9 @@ footer .adress {
 }
 .blend {
   background-blend-mode: overlay;
+}
+.bgc-dark-slate-grey {
+  background-color: #6b6b6b;
 }
 .bgc-dark-slate-black {
   background-color: #444444;
