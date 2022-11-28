@@ -328,7 +328,7 @@ h2 {
 }
 
 .subtitle {
-  font-size: clamp(15px, 3vw, 18px);
+  font-size: clamp(14px, 3vw, 18px);
   font-family: "helvetica";
   font-weight: 400;
 }
